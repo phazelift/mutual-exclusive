@@ -1,7 +1,7 @@
 # mutually-exclusive
 
 
-### Check whether the characters of a string are mutually exclusive
+### Check whether the characters of two strings are mutually exclusive
 
 <br/>
 

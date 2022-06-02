@@ -1,7 +1,7 @@
 {
   "name": "@sygn/mutually-exclusive",
-  "description": "check whether the characters of a string are mutually exclusive",
-  "version": "0.1.0",
+  "description": "check whether the characters of two strings are mutually exclusive",
+  "version": "0.1.1",
   "main": "mutually-exclusive",
   "publishConfig": {
 		"access": "public"
