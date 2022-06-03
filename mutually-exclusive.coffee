@@ -13,7 +13,7 @@ message.format 'error', (text) ->
 
 mutuallyExclusive = (a, b) ->
 	if not allString a, b
-		return message.error 'mutually-exclusive requires string type arguments'
+		return message.error 'requires string type arguments'
 
 	for ch in a then if b.indexOf(ch) > -1
 		return false

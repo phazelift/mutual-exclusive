@@ -1,7 +1,7 @@
 {
   "name": "@sygn/mutually-exclusive",
   "description": "check whether the characters of two strings are mutually exclusive",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "mutually-exclusive",
   "publishConfig": {
 		"access": "public"
@@ -12,9 +12,9 @@
 	 },
   "devDependencies": {},
   "scripts": {
-	"build": "coffee -c --transpile mutually-exclusive.coffee && npm run uglify",
+	  "build": "coffee -c --transpile mutually-exclusive.coffee && npm run uglify",
     "test": "echo \"Error: no test specified\" && exit 1",
-	 "uglify": "terser mutually-exclusive.js -c -m -o mutually-exclusive.min.js"
+    "uglify": "terser mutually-exclusive.js -c -m -o mutually-exclusive.min.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,9 @@
   },
   "keywords": [
     "mutually",
-	 "exclusive",
-	 "string",
-	 "characters"
+    "exclusive",
+    "string",
+    "characters"
   ],
   "author": "dennis raymondo van der sluis",
   "license": "MIT",
