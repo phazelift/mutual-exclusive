@@ -18,7 +18,7 @@
     var ch, i, len;
 
     if (!allString(a, b)) {
-      return message.error('mutually-exclusive requires string type arguments');
+      return message.error('requires string type arguments');
     }
 
     for (i = 0, len = a.length; i < len; i++) {
